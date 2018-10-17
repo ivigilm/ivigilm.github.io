@@ -1,0 +1,354 @@
+/* css file for ivmcv.html */
+
+/* ====================  AJUSTES GENERALES ==================== */
+
+* {
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+body {	
+	margin: 0;	
+	padding: 0;
+}
+
+#contenedor {
+	background-color: white;
+	color: #767676;
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 1%;
+}
+
+/* Evita que el texto se pegue al margen en las secciones. */
+
+#contenedor div {
+	padding: 2%;
+}
+
+h1, h2 {
+	margin: 3% 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.3em !important;
+}
+
+h4 {
+	font-size: 1.02em !important;
+}
+
+/* Sección principal */
+
+h3, h4 {
+	color: #1A90FA;
+}
+
+/* Titulaciones */
+#seccionprincipal h3+ul li h4 {
+	margin-bottom: 8px;
+}
+
+/* Líneas entre las diferentes partes de la sección principal. */
+#seccionprincipal h3 {
+	border-top: solid thin #B0B0B0;
+	font-size: 1.3em;
+	margin-top: 0;
+	padding-top: 35px;
+}
+
+/* Evita que salga una línea sobre "Educación". */
+#seccionprincipal h3:first-child {
+	border-top: none;
+}
+
+/* listas a continuación de H3 */
+#seccionprincipal h3+ul {
+	list-style: none;
+	margin-bottom: 25px;
+	padding-left: 50px;
+}
+
+/* detalles de las titulaciones y trabajos */
+#seccionprincipal h3+ul>li>ul {
+	list-style: none;
+	padding: 7px 0 0 15px;
+}
+
+#seccionprincipal h3+ul>li>ul>li {
+	font-size: 0.95em;
+	margin-left: 15px;
+	padding: 10px 0;
+}
+
+.tareas {
+	text-decoration: underline;
+}
+
+#seccionprincipal h4+p {	
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 0;
+}
+
+h3+div {
+	margin: auto;
+}
+
+h3+div>img {
+	margin: 15px;
+}
+
+/* Barra lateral */
+
+#foto {
+		margin: 0 12%;
+	}
+	
+	/* Fondo azul información de contacto */
+
+#contacto {
+	background-color: #1A90FA;
+	color: white;
+	margin: 0;
+	padding: 5px;
+}
+
+#contacto > div {
+	padding: 0 10%;
+}
+
+#tlf {
+	font-size: 1.2em;
+}
+
+#contacto a {
+	color: white;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+header+div>p {
+	text-align: left;
+}
+
+/* GIS */
+
+#barralateral div a img {
+	margin: 0 30%;
+}
+
+/* Barras de progreso de idiomas*/
+
+progress {
+
+	/* Eliminamos la apariencia por defecto */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	/*background-color:#2196F3;*/
+	border: none; /* Quitamos el borde que aparece en Firefox */
+	/*#1A90FA;*/
+	height: 13px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+	/* Compatibilidad de color en Chrome */
+progress::-moz-progress-bar {
+	background-color: #1A90FA;
+}
+
+	/* Estilo del contenedor de la barra de progreso. */
+progress::-webkit-progress-bar {
+	background-color: #C6C7C7;
+	width: 100%;
+}
+
+	/* Estilo del valor de la barra de progreso. */
+progress::-webkit-progress-value {
+	background-color: #1A90FA;
+	border-right: none;
+}
+
+
+/* Nube de tecnologías */
+
+#tecnologias {
+	position: relative;
+}
+
+.circle {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: solid white 2px;
+    border-radius: 100%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+.circle span {
+   	position: relative;
+}
+
+/* HTML */
+.anil {    	
+    background-color: #C3C4FC;
+    height: 80px;
+    left: 0;
+    top: 80px;
+    width: 80px;
+}
+
+.anil span {
+    font-size: 0.8em;
+	left: 10px;
+	top: 26px;
+}
+
+/* JavaScript */
+.cielo {
+  	background-color: #C3E8FD;
+  	height: 90px;
+   	left: 50px;
+   	top: 100px;
+   	width: 90px;
+}
+
+.cielo span {
+	font-size: 0.9em;
+	left: 10px;
+	top: 27px;
+}
+
+/* CSS */
+.malva {
+  	background-color: #F6CDFB;
+    height: 70px;
+   	left: 45px;
+   	top: 40px;
+    width: 70px;
+}
+
+.malva span {
+	left: 15px;
+	top: 20px;
+}
+
+/* C# */
+.azul {
+   	background-color: #A8CCFC;
+   	top: 40px;
+}
+
+.azul span {
+	left: 10px;
+	top: 10px;
+}
+
+/* Python */
+.turquesa {
+	background-color: #AAF5F0;
+	left: 60px;
+	top: 170px;
+}
+
+.turquesa span {
+	font-size: 0.7em;
+	left: 4px;
+	top: 10px;
+}
+
+/* SQL */
+.grey {
+	background-color: #DBDBDB;
+	height: 60px;
+	left: 7px;
+	top: 150px;
+	width: 60px;
+}
+
+.grey span {
+	font-size: 0.9em;
+	left: 14px;
+	top: 15px;
+}
+
+
+
+
+/* ===================== MEDIA QUERIES ====================== */			 							*/
+
+
+
+
+/* PANTALLA MÓVIL */
+
+@media only screen and
+  (min-device-width : 320px)
+  and (max-device-width : 480px) {
+
+	* {
+		width: 100%;
+	}
+}
+
+
+/* DISPOSITIVO INTERMEDIO */
+
+@media only screen and 
+  (min-width: 481px) and 
+  (max-width: 899px) {
+  	#contenedor div {
+  		width: 100%;
+  	}
+}
+
+
+/* PANTALLA ORDENADOR */
+
+@media only screen and
+  (min-width: 900px) and 
+  (max-width: 1800px) {	
+
+	#contenedor div {
+		margin: 3%;
+	}
+
+	/* Sección 1: contenido principal (estudios, experiencia) */
+
+	#seccionprincipal {
+		border-left: solid 20px #1A90FA;
+		border-right: solid thin #B0B0B0;
+		width: 69%;
+	}
+
+	/* Sección 2: barra lateral (foto, contacto) */
+
+	#contenedor #barralateral {
+		float: right;
+		margin-bottom: 10px;
+		margin-top: 0;
+		width: 25%;
+	}
+}
+
+
+/* PANTALLA TV */
+
+@media only screen and
+  (min-width: 1801px) {
+  	/* reglas css */
+  }
