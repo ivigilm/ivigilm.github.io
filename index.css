@@ -1,4 +1,4 @@
-/* css file for ivmcv.html */
+/* css file for index.html */
 
 /* ====================  AJUSTES GENERALES ==================== */
 
@@ -80,14 +80,14 @@ h3, h4 {
 
 /* detalles de las titulaciones y trabajos */
 #seccionprincipal h3+ul>li>ul {
-	list-style: none;
+	list-style-type: disc;
 	padding: 7px 0 0 15px;
 }
 
 #seccionprincipal h3+ul>li>ul>li {
 	font-size: 0.95em;
 	margin-left: 15px;
-	padding: 10px 0;
+	padding: 10px 0 0 0;
 }
 
 .tareas {
@@ -100,6 +100,7 @@ h3, h4 {
 	margin: 0;
 }
 
+/* Conferencias */
 h3+div {
 	margin: auto;
 }
@@ -147,36 +148,50 @@ header+div>p {
 	margin: 0 30%;
 }
 
+.fa-globe-africa {
+	padding: 5% 30%;
+}
+
 /* Barras de progreso de idiomas*/
 
 progress {
 
-	/* Eliminamos la apariencia por defecto */
-	-webkit-appearance: none;
+	/* Eliminamos la apariencia por defecto en Firefox y Chrome, Safari, Android, iOs */
+	-ms-appearance: none;
 	-moz-appearance: none;
+	-webkit-appearance: none;
 	appearance: none;
 
-	/*background-color:#2196F3;*/
 	border: none; /* Quitamos el borde que aparece en Firefox */
-	/*#1A90FA;*/
 	height: 13px;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
 
-	/* Compatibilidad de color en Chrome */
+	/* Internet Explorer */
+progress::-ms-fill {
+	background-color: #1A90FA;
+	border: none;
+}
+
+	/* Internet Explorer */
+progress::-ms-progress-bar {
+	background-color: #1A90FA;
+}
+
+	/* Compatibilidad de color en Firefox */
 progress::-moz-progress-bar {
 	background-color: #1A90FA;
 }
 
-	/* Estilo del contenedor de la barra de progreso. */
+	/* Estilo del contenedor de la barra de progreso en Chrome, Safari, Android, iOs.*/ 
 progress::-webkit-progress-bar {
 	background-color: #C6C7C7;
 	width: 100%;
 }
 
-	/* Estilo del valor de la barra de progreso. */
+	/* Estilo del valor de la barra de progreso en Chrome, Safari, Android, iOs.*/ 
 progress::-webkit-progress-value {
 	background-color: #1A90FA;
 	border-right: none;
@@ -293,33 +308,62 @@ progress::-webkit-progress-value {
 
 
 
+/* Temporalmente solo está disponible la vista de más de 900px. */
+
+
+/* VISTA IMPRESIÓN */
+
+@media print {
+	/*barralateral div:first-child*/
+/*	#uno {
+		float: right;
+		width: 25%;
+	}
+
+	#barralateral > div:nth-child(2 + 1n) {
+		float: right;
+		width: 25%;
+	}*/
+}
+
 
 /* PANTALLA MÓVIL */
 
-@media only screen and
-  (min-device-width : 320px)
-  and (max-device-width : 480px) {
+@media screen
+  and (max-width: 480px) {
 
-	* {
+  	* {
+  		display: none;
+  	}
+/*
+	#barralateral, #seccionprincipal {
 		width: 100%;
 	}
+*/
+
 }
 
 
 /* DISPOSITIVO INTERMEDIO */
 
-@media only screen and 
+@media screen and 
   (min-width: 481px) and 
   (max-width: 899px) {
-  	#contenedor div {
-  		width: 100%;
+
+  	* {
+  		display: none;
   	}
+
+  	/*
+  	#barralateral, #seccionprincipal {
+  		width: 100%;
+  	}*/
 }
 
 
 /* PANTALLA ORDENADOR */
 
-@media only screen and
+@media screen and
   (min-width: 900px) and 
   (max-width: 1800px) {	
 
@@ -327,15 +371,11 @@ progress::-webkit-progress-value {
 		margin: 3%;
 	}
 
-	/* Sección 1: contenido principal (estudios, experiencia) */
-
 	#seccionprincipal {
 		border-left: solid 20px #1A90FA;
 		border-right: solid thin #B0B0B0;
 		width: 69%;
 	}
-
-	/* Sección 2: barra lateral (foto, contacto) */
 
 	#contenedor #barralateral {
 		float: right;
@@ -348,7 +388,7 @@ progress::-webkit-progress-value {
 
 /* PANTALLA TV */
 
-@media only screen and
+@media screen and
   (min-width: 1801px) {
   	/* reglas css */
   }
