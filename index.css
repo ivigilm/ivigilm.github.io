@@ -1,5 +1,6 @@
 /* css file for index.html */
 
+
 /* ====================  AJUSTES GENERALES ==================== */
 
 * {
@@ -53,12 +54,12 @@ h3, h4 {
 	color: #1A90FA;
 }
 
-/* Titulaciones */
+	/* Titulaciones */
 #seccionprincipal h3+ul li h4 {
 	margin-bottom: 8px;
 }
 
-/* Líneas entre las diferentes partes de la sección principal. */
+	/* Líneas entre las diferentes partes de la sección principal. */
 #seccionprincipal h3 {
 	border-top: solid thin #B0B0B0;
 	font-size: 1.3em;
@@ -66,19 +67,18 @@ h3, h4 {
 	padding-top: 35px;
 }
 
-/* Evita que salga una línea sobre "Educación". */
+	/* Evita que salga una línea sobre "Educación". */
 #seccionprincipal h3:first-child {
 	border-top: none;
 }
 
-/* listas a continuación de H3 */
 #seccionprincipal h3+ul {
 	list-style: none;
 	margin-bottom: 25px;
 	padding-left: 50px;
 }
 
-/* detalles de las titulaciones y trabajos */
+	/* detalles de las titulaciones y trabajos */
 #seccionprincipal h3+ul>li>ul {
 	list-style-type: disc;
 	padding: 7px 0 0 15px;
@@ -100,7 +100,7 @@ h3, h4 {
 	margin: 0;
 }
 
-/* Conferencias */
+	/* Conferencias */
 h3+div {
 	margin: auto;
 }
@@ -142,8 +142,6 @@ header+div>p {
 	text-align: left;
 }
 
-/* GIS */
-
 #barralateral div a img {
 	margin: 0 30%;
 }
@@ -152,53 +150,46 @@ header+div>p {
 	padding: 5% 30%;
 }
 
-/* Barras de progreso de idiomas*/
+	/* Barras de progreso de idiomas*/
 
 progress {
 
-	/* Eliminamos la apariencia por defecto en Firefox y Chrome, Safari, Android, iOs */
 	-ms-appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-
-	border: none; /* Quitamos el borde que aparece en Firefox */
+	border: none;
 	height: 13px;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
 
-	/* Internet Explorer */
 progress::-ms-fill {
 	background-color: #1A90FA;
 	border: none;
 }
 
-	/* Internet Explorer */
 progress::-ms-progress-bar {
 	background-color: #1A90FA;
 }
 
-	/* Compatibilidad de color en Firefox */
 progress::-moz-progress-bar {
 	background-color: #1A90FA;
 }
 
-	/* Estilo del contenedor de la barra de progreso en Chrome, Safari, Android, iOs.*/ 
 progress::-webkit-progress-bar {
 	background-color: #C6C7C7;
 	width: 100%;
 }
 
-	/* Estilo del valor de la barra de progreso en Chrome, Safari, Android, iOs.*/ 
 progress::-webkit-progress-value {
 	background-color: #1A90FA;
 	border-right: none;
 }
 
 
-/* Nube de tecnologías */
+	/* Nube de tecnologías */
 
 #tecnologias {
 	position: relative;
@@ -314,6 +305,11 @@ progress::-webkit-progress-value {
 /* VISTA IMPRESIÓN */
 
 @media print {
+
+	#divcontacto {
+		
+	}
+
 	/*barralateral div:first-child*/
 /*	#uno {
 		float: right;
