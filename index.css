@@ -1,8 +1,6 @@
 /* css file for index.html */
 
 
-/* ====================  AJUSTES GENERALES ==================== */
-
 * {
 	box-sizing: border-box;
 	text-align: justify;
@@ -21,9 +19,22 @@ body {
 	padding: 1%;
 }
 
-/* Evita que el texto se pegue al margen en las secciones. */
+#seccionprincipal {
+	border-left: solid 20px #1A90FA;
+	border-right: solid thin #B0B0B0;
+	width: 75%;
+}
+
+#barralateral {
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 0;
+	width: 25%;
+}
+
 
 #contenedor div {
+	margin: 0;
 	padding: 2%;
 }
 
@@ -114,8 +125,6 @@ h3+div>img {
 #foto {
 		margin: 0 12%;
 	}
-	
-	/* Fondo azul información de contacto */
 
 #contacto {
 	background-color: #1A90FA;
@@ -132,10 +141,18 @@ h3+div>img {
 	font-size: 1.1em;
 }
 
-#contacto a {
+#contacto a, .fa-envelope {
 	color: white;
 	text-decoration: none;
+}
+
+#contacto a {	
 	font-size: 0.6em;
+	padding-right: 2%;
+}
+
+ .fa-envelope {	
+	padding-left: 8%;
 }
 
 header+div>p {
@@ -147,7 +164,20 @@ header+div>p {
 }
 
 .fa-globe-africa {
-	padding: 5% 30%;
+	padding: 2% 30%;
+}
+
+#objetivo {
+	font-size: 0.9em;
+}
+
+#objetivo p {
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+
+#objetivo p:nth-child(2) {
+	text-align: center;
 }
 
 	/* Barras de progreso de idiomas*/
@@ -291,100 +321,3 @@ progress::-webkit-progress-value {
 	left: 14px;
 	top: 15px;
 }
-
-
-
-
-/* ===================== MEDIA QUERIES ====================== */			 							*/
-
-
-
-/* Temporalmente solo está disponible la vista de más de 900px. */
-
-
-/* VISTA IMPRESIÓN */
-
-@media print {
-
-	#divcontacto {
-		
-	}
-
-	/*barralateral div:first-child*/
-/*	#uno {
-		float: right;
-		width: 25%;
-	}
-
-	#barralateral > div:nth-child(2 + 1n) {
-		float: right;
-		width: 25%;
-	}*/
-}
-
-
-/* PANTALLA MÓVIL */
-
-@media screen
-  and (max-width: 480px) {
-
-  	* {
-  		display: none;
-  	}
-/*
-	#barralateral, #seccionprincipal {
-		width: 100%;
-	}
-*/
-
-}
-
-
-/* DISPOSITIVO INTERMEDIO */
-
-@media screen and 
-  (min-width: 481px) and 
-  (max-width: 899px) {
-
-  	* {
-  		display: none;
-  	}
-
-  	/*
-  	#barralateral, #seccionprincipal {
-  		width: 100%;
-  	}*/
-}
-
-
-/* PANTALLA ORDENADOR */
-
-@media screen and
-  (min-width: 900px) and 
-  (max-width: 1800px) {	
-
-	#contenedor div {
-		margin: 3%;
-	}
-
-	#seccionprincipal {
-		border-left: solid 20px #1A90FA;
-		border-right: solid thin #B0B0B0;
-		width: 69%;
-	}
-
-	#contenedor #barralateral {
-		float: right;
-		margin-bottom: 10px;
-		margin-top: 0;
-		width: 25%;
-	}
-}
-
-
-/* PANTALLA TV */
-
-@media screen and
-  (min-width: 1801px) {
-  	/* reglas css */
-  }
