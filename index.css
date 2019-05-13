@@ -147,7 +147,7 @@ h3+div>img {
 }
 
 #contacto a {	
-	font-size: 0.6em;
+	font-size: 0.5em;
 	padding-right: 2%;
 }
 
@@ -258,14 +258,14 @@ progress::-webkit-progress-value {
 .cielo {
   	background-color: #C3E8FD;
   	height: 90px;
-   	left: 50px;
+   	left: 60px;
    	top: 100px;
    	width: 90px;
 }
 
 .cielo span {
-	font-size: 0.9em;
-	left: 10px;
+	font-size: 0.85em;
+	left: 5px;
 	top: 27px;
 }
 
@@ -273,7 +273,7 @@ progress::-webkit-progress-value {
 .malva {
   	background-color: #F6CDFB;
     height: 70px;
-   	left: 45px;
+   	left: 47px;
    	top: 40px;
     width: 70px;
 }
@@ -302,8 +302,8 @@ progress::-webkit-progress-value {
 }
 
 .turquesa span {
-	font-size: 0.7em;
-	left: 4px;
+	font-size: 0.65em;
+	left: 2px;
 	top: 10px;
 }
 
@@ -318,6 +318,6 @@ progress::-webkit-progress-value {
 
 .grey span {
 	font-size: 0.9em;
-	left: 14px;
+	left: 10px;
 	top: 15px;
 }
