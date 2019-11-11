@@ -167,8 +167,21 @@ header+div>p {
 	padding: 2% 30%;
 }
 
-#objetivo {
+#voluntariado,
+#objetivo, #formacion {
 	font-size: 0.9em;
+}
+
+#voluntariado, #idiomas, #tecnologias, #formacion {
+	padding-top: 30px !important;
+}
+
+#tecnologias {
+	margin-bottom: 220px !important;
+}
+
+.circle {
+	margin-top: 30px !important;
 }
 
 #objetivo p {
