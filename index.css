@@ -298,7 +298,7 @@ progress::-webkit-progress-value {
 .turquesa {
 	background-color: #AAF5F0;
 	left: 60px;
-	top: 170px;
+	top: 175px;
 }
 
 .turquesa span {
@@ -318,6 +318,38 @@ progress::-webkit-progress-value {
 
 .grey span {
 	font-size: 0.9em;
+	left: 10px;
+	top: 15px;
+}
+
+/* Mapea */
+
+.verde {
+	background-color: rgb(188, 230, 194);
+	height: 80px;
+	left: 110px;
+	top: 40px;
+	width: 80px;
+}
+
+.verde span {
+	font-size: 0.9em;
+	left: 7px;
+	top: 25px;
+}
+
+/* Git */
+
+.rosa {
+	background-color: rgb(248, 202, 209);
+	height: 60px;
+	left: 115px;
+	top: 170px;
+	width: 60px;
+}
+
+.rosa span {
+	font-size: 1em;
 	left: 10px;
 	top: 15px;
 }
