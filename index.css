@@ -177,7 +177,7 @@ header+div>p {
 }
 
 #tecnologias {
-	margin-bottom: 220px !important;
+	margin-bottom: 250px !important;
 }
 
 .circle {
@@ -234,7 +234,7 @@ progress::-webkit-progress-value {
 
 	/* Nube de tecnologías */
 
-#tecnologias {
+#tecnologias>div {
 	position: relative;
 }
 
@@ -252,12 +252,27 @@ progress::-webkit-progress-value {
    	position: relative;
 }
 
+/* JavaScript */
+.js {
+	background-color: rgb(190, 216, 252);
+	height: 90px;
+	 left: 35px;
+	 top: 0;
+	 width: 90px;
+}
+
+.js span {
+  font-size: 0.85em;
+  left: 5px;
+  top: 27px;
+}
+
 /* HTML */
 .anil {    	
 	background-color: #C3C4FC;
     height: 80px;
     left: 0;
-    top: 90px;
+    top: 70px;
     width: 80px;
 }
 
@@ -267,27 +282,12 @@ progress::-webkit-progress-value {
 	top: 25px;
 }
 
-/* JavaScript */
-.js {
-  	background-color: rgb(190, 216, 252);
-  	height: 90px;
-   	left: 35px;
-   	top: 20px;
-   	width: 90px;
-}
-
-.js span {
-	font-size: 0.85em;
-	left: 5px;
-	top: 27px;
-}
-
 /* CSS */
 .malva {
 	background-color: #F6CDFB;
     height: 80px;
    	left: 70px;
-   	top: 90px;
+   	top: 70px;
     width: 80px;
 }
 
@@ -300,7 +300,7 @@ progress::-webkit-progress-value {
 .azul {
 	background-color:  #C3E8FD;
 	left: 95px;
-   	top: 160px;
+   	top: 140px;
 }
 
 .azul span {
@@ -312,7 +312,7 @@ progress::-webkit-progress-value {
 .turquesa {
 	background-color: #AAF5F0;
 	left: 60px;
-	top: 190px;
+	top: 170px;
 }
 
 .turquesa span {
@@ -327,7 +327,7 @@ progress::-webkit-progress-value {
 	font-size: 0.9em;
 	height: 60px;
 	left: 5px;
-	top: 165px;
+	top: 145px;
 	width: 60px;
 }
 
@@ -343,7 +343,7 @@ progress::-webkit-progress-value {
 	background-color: rgb(188, 230, 194);
 	height: 80px;
 	left: 110px;
-	top: 40px;
+	top: 20px;
 	width: 80px;
 }
 
@@ -359,7 +359,7 @@ progress::-webkit-progress-value {
 	background-color: rgb(248, 202, 209);
 	height: 60px;
 	left: 45px;
-	top: 145px;
+	top: 125px;
 	width: 60px;
 }
 
