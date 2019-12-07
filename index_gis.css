@@ -254,29 +254,29 @@ progress::-webkit-progress-value {
 
 /* HTML */
 .anil {    	
-	background-color: #C3C4FC;
+    background-color: #C3C4FC;
     height: 80px;
     left: 0;
-    top: 90px;
+    top: 80px;
     width: 80px;
 }
 
 .anil span {
-    font-size: 0.9em;
+    font-size: 0.8em;
 	left: 10px;
-	top: 25px;
+	top: 26px;
 }
 
 /* JavaScript */
-.js {
-  	background-color: rgb(190, 216, 252);
+.cielo {
+  	background-color: #C3E8FD;
   	height: 90px;
-   	left: 35px;
-   	top: 20px;
+   	left: 60px;
+   	top: 100px;
    	width: 90px;
 }
 
-.js span {
+.cielo span {
 	font-size: 0.85em;
 	left: 5px;
 	top: 27px;
@@ -284,23 +284,22 @@ progress::-webkit-progress-value {
 
 /* CSS */
 .malva {
-	background-color: #F6CDFB;
-    height: 80px;
-   	left: 70px;
-   	top: 90px;
-    width: 80px;
+  	background-color: #F6CDFB;
+    height: 70px;
+   	left: 47px;
+   	top: 40px;
+    width: 70px;
 }
 
 .malva span {
-	left: 18px;
-	top: 25px;
+	left: 15px;
+	top: 20px;
 }
 
 /* C# */
 .azul {
-	background-color:  #C3E8FD;
-	left: 95px;
-   	top: 160px;
+   	background-color: #A8CCFC;
+   	top: 40px;
 }
 
 .azul span {
@@ -312,7 +311,7 @@ progress::-webkit-progress-value {
 .turquesa {
 	background-color: #AAF5F0;
 	left: 60px;
-	top: 190px;
+	top: 175px;
 }
 
 .turquesa span {
@@ -324,16 +323,15 @@ progress::-webkit-progress-value {
 /* SQL */
 .grey {
 	background-color: #DBDBDB;
-	font-size: 0.9em;
 	height: 60px;
-	left: 5px;
-	top: 165px;
+	left: 7px;
+	top: 150px;
 	width: 60px;
 }
 
 .grey span {
 	font-size: 0.9em;
-	left: 7px;
+	left: 10px;
 	top: 15px;
 }
 
@@ -358,8 +356,8 @@ progress::-webkit-progress-value {
 .rosa {
 	background-color: rgb(248, 202, 209);
 	height: 60px;
-	left: 45px;
-	top: 145px;
+	left: 115px;
+	top: 170px;
 	width: 60px;
 }
 
