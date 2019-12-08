@@ -20,7 +20,7 @@ body {
 }
 
 #seccionprincipal {
-	border-left: solid 20px #1A90FA;
+	border-left: solid 20px rgba(153, 34, 98, 0.979); /*#1A90FA; 6B1844*/
 	border-right: solid thin #B0B0B0;
 	width: 75%;
 }
@@ -62,7 +62,7 @@ h4 {
 /* Sección principal */
 
 h3, h4 {
-	color: #1A90FA;
+	color: rgba(153, 34, 98, 0.979);
 }
 
 	/* Titulaciones */
@@ -124,11 +124,11 @@ h3+div>img {
 
 #foto {
 	border-radius: 100px;
-	margin: 0 12% 10px 12%;
+	margin: 0 0 10px;
 	}
 
 #contacto {
-	background-color: #1A90FA;
+	background-color: rgba(153, 34, 98, 0.979);
 	color: white;
 	margin: 0;
 	padding: 5px;
@@ -210,16 +210,16 @@ progress {
 }
 
 progress::-ms-fill {
-	background-color: #1A90FA;
+	background-color: rgba(153, 34, 98, 0.979);
 	border: none;
 }
 
 progress::-ms-progress-bar {
-	background-color: #1A90FA;
+	background-color: rgba(153, 34, 98, 0.979);
 }
 
 progress::-moz-progress-bar {
-	background-color: #1A90FA;
+	background-color: rgba(153, 34, 98, 0.979);
 }
 
 progress::-webkit-progress-bar {
@@ -228,7 +228,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-	background-color: #1A90FA;
+	background-color: rgba(153, 34, 98, 0.979);
 	border-right: none;
 }
 
@@ -255,7 +255,7 @@ progress::-webkit-progress-value {
 
 /* JavaScript */
 .js {
-	background-color: rgb(190, 216, 252);
+	background-color: rgba(245, 180, 213, 0.979);
 	height: 90px;
 	 left: 35px;
 	 top: 0;
@@ -270,7 +270,7 @@ progress::-webkit-progress-value {
 
 /* HTML */
 .anil {    	
-	background-color: #C3C4FC;
+	background-color: rgba(247, 205, 240, 0.979);
     height: 80px;
     left: 0;
     top: 70px;
@@ -285,7 +285,7 @@ progress::-webkit-progress-value {
 
 /* CSS */
 .malva {
-	background-color: #F6CDFB;
+	background-color: rgb(239, 192, 245);
     height: 80px;
    	left: 70px;
    	top: 70px;
@@ -297,9 +297,25 @@ progress::-webkit-progress-value {
 	top: 25px;
 }
 
+/* Git */
+
+.rosa {
+	background-color: rgb(223, 180, 248);
+	height: 60px;
+	left: 45px;
+	top: 125px;
+	width: 60px;
+}
+
+.rosa span {
+	font-size: 1em;
+	left: 10px;
+	top: 15px;
+}
+
 /* C# */
 .azul {
-	background-color:  #C3E8FD;
+	background-color:  rgb(228, 207, 247);
 	left: 95px;
    	top: 140px;
 }
@@ -311,7 +327,7 @@ progress::-webkit-progress-value {
 
 /* Python */
 .turquesa {
-	background-color: #AAF5F0;
+	background-color: rgb(243, 209, 238);
 	left: 60px;
 	top: 170px;
 }
@@ -324,7 +340,7 @@ progress::-webkit-progress-value {
 
 /* SQL */
 .grey {
-	background-color: #DBDBDB;
+	background-color: rgb(231, 207, 238);
 	font-size: 0.9em;
 	height: 60px;
 	left: 5px;
@@ -335,37 +351,5 @@ progress::-webkit-progress-value {
 .grey span {
 	font-size: 0.9em;
 	left: 7px;
-	top: 15px;
-}
-
-/* Mapea */
-
-.verde {
-	background-color: rgb(188, 230, 194);
-	height: 80px;
-	left: 110px;
-	top: 20px;
-	width: 80px;
-}
-
-.verde span {
-	font-size: 0.9em;
-	left: 7px;
-	top: 25px;
-}
-
-/* Git */
-
-.rosa {
-	background-color: rgb(248, 202, 209);
-	height: 60px;
-	left: 45px;
-	top: 125px;
-	width: 60px;
-}
-
-.rosa span {
-	font-size: 1em;
-	left: 10px;
 	top: 15px;
 }
