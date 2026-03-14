@@ -8,32 +8,35 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
   integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <style>
+    html, body, #main {
+      height: 100%;
+    }
+    #main {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
     h1 {
       color: #551A8B;
-      font-size: 2.5em;
-      margin: auto;
-      text-align: center;
-      position: absolute;
-      top: calc(50% - 100px);
-      width: 100%;
     }
     #links {
-      position: absolute;
-      top: calc(50% - 27px);
-      left: calc(50% - 98px);
+      display: flex;
+      justify-content: space-evenly;
+      width: 100px;
     }
     #links>a {
-      font-size: 3em;
-      padding: 0 10px;
+      font-size: 30px;
     }
   </style>
 </head>
 <body>
-  <h1>ISABEL VIGIL</h1>
-  <div id="links">
-    <a href="https://github.com/ivigilm"><i class="fab fa-github-square"></i></a>
-    <a href="https://www.linkedin.com/in/isabelvigilm/"><i class="fab fa-linkedin"></i></a>
-    <a href="https://twitter.com/isabelvigilm"><i class="fab fa-twitter-square"></i></a>
+  <div id="main">
+    <h1>ISABEL VIGIL</h1>
+    <div id="links">
+      <a href="https://github.com/ivigilm"><i class="fab fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/isabelvigilm/"><i class="fab fa-linkedin"></i></a>
+    </div>
   </div>
 </body>
 </html>
